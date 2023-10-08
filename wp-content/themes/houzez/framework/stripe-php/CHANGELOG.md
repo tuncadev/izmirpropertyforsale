@@ -6,10 +6,17 @@
 
 ## 10.12.0 - 2023-03-30
 * [#1470](https://github.com/stripe/stripe-php/pull/1470) Update generated code
+<<<<<<< HEAD
   * Remove support for `create` method on resource `Tax.Transaction`
     * This is not a breaking change, as this method was deprecated before the Tax Transactions API was released in favor of the `createFromCalculation` method.
   * Remove support for value `deleted` from enum `Invoice.status`
     * This is not a breaking change, as the value was never returned or accepted as input.
+=======
+  * Remove support for `create` method on resource `Tax.Transaction`
+    * This is not a breaking change, as this method was deprecated before the Tax Transactions API was released in favor of the `createFromCalculation` method.
+  * Remove support for value `deleted` from enum `Invoice.status`
+    * This is not a breaking change, as the value was never returned or accepted as input.
+>>>>>>> 8ec29a32f02852e28f6f63ef803d6e70294a8fbd
 * [#1468](https://github.com/stripe/stripe-php/pull/1468) Trigger workflow for tags
 * [#1467](https://github.com/stripe/stripe-php/pull/1467) Update generated code (new)
   * Release specs are identical.
